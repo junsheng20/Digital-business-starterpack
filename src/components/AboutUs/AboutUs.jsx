@@ -1,5 +1,5 @@
 import React from "react";
-import "./WhoWeInvest.css";
+import "./AboutUs.css";
 import { whoWeInvest } from "@/src/utils/data";
 import { motion } from "framer-motion";
 import {
@@ -8,13 +8,13 @@ import {
   titleVariants,
 } from "@/src/utils/animations";
 
-const WhoWeInvest = () => {
+const AboutUs = () => {
   return (
-    <div className="wwi-wrapper">
+    <div className="about-wrapper">
       <div className="container">
-        <div className="wwi-container">
+        <div className="about-container">
           {/* left side */}
-          <div className="wwi-left">
+          <div className="about-left">
             <div className="head">
               <motion.span
                 initial="offScreen"
@@ -22,7 +22,7 @@ const WhoWeInvest = () => {
                 variants={tagVariants}
                 className="tag"
               >
-                Who we invest in
+                About Us
               </motion.span>
               <motion.span
                 initial="offScreen"
@@ -36,13 +36,13 @@ const WhoWeInvest = () => {
             </div>
 
             {/* features */}
-            <div className="wwi-features">
+            <div className="about-features">
               {whoWeInvest.map((feature, index) => (
                 <motion.div
                   initial="offScreen"
                   whileInView="onScreen"
                   variants={containerVariants(index * 0.1)}
-                  className="wwi-feature"
+                  className="about-feature"
                   key={index}
                 >
                   <span className="des">{feature.title}</span>
@@ -53,7 +53,7 @@ const WhoWeInvest = () => {
           </div>
 
           {/* right side */}
-          <div className="wwi-right">
+          <div className="about-right">
             <motion.img
               initial="offScreen"
               whileInView="onScreen"
@@ -68,4 +68,4 @@ const WhoWeInvest = () => {
   );
 };
 
-export default WhoWeInvest;
+export default AboutUs;

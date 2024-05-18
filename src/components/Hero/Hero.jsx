@@ -92,9 +92,11 @@ const Hero = () => {
           {/* right side */}
           <div className="h-right">
             <div className="h-title">
-              <span>Redefine How</span>
-              <span>You Grow your</span>
-              <span>Digital Business</span>
+              {/* <span>Redefine How</span> */}
+              {/* <span>You Grow your</span> */}
+              {/* <span>Digital Business</span> */}
+              <span>Company Website</span>
+              <span>Hero Title</span>
             </div>
 
             <div className="h-des">

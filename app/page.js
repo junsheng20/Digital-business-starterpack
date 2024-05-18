@@ -8,7 +8,7 @@ import WhatWeDo from "@/src/components/WhatWeDo/WhatWeDo";
 import OurDiff from "@/src/components/OurDiff/OurDiff";
 import { motion, useAnimation } from "framer-motion";
 import HowItWorks from "@/src/components/HowItWorks/HowItWorks";
-import WhoWeInvest from "@/src/components/WhoWeInvest/WhoWeInvest";
+import AboutUs from "@/src/components/AboutUs/AboutUs";
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import Footer from "@/src/components/Footer/Footer";
 
@@ -20,7 +20,7 @@ export default function Home() {
 
       <Hero />
 
-      <BrandingVideo />
+      {/* <BrandingVideo /> */}
 
       <WhatWeDo />
 
@@ -35,7 +35,7 @@ export default function Home() {
             backgroundColor: "white",
           })
         }
-        viewport={{ amount: 0.4 }}
+        viewport={{ amount: 0.3 }}
       >
         <OurDiff />
       </motion.div>
@@ -53,9 +53,9 @@ export default function Home() {
             backgroundColor: "white",
           })
         }
-        viewport={{ amount: 0.4 }}
+        viewport={{ amount: 0.3 }}
       >
-        <WhoWeInvest />
+        <AboutUs />
       </motion.div>
 
       <Testimonials />

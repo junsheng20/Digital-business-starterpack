@@ -1,80 +1,80 @@
-.wwi-wrapper .container {
+.about-wrapper .container {
   padding-top: 13rem;
 }
 
-.wwi-container {
+.about-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.wwi-container > div {
+.about-container > div {
   flex: 1;
 }
 
-.wwi-left {
+.about-left {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.wwi-left .head {
+.about-left .head {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: flex-start;
 }
 
-.wwi-left .head .title {
+.about-left .head .title {
   text-align: left;
   color: white;
 }
 
-.wwi-features {
+.about-features {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.wwi-feature {
+.about-feature {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   max-width: 28rem;
 }
 
-.wwi-feature .des {
+.about-feature .des {
   color: var(--fourth-color);
 }
 
-.wwi-feature .text {
+.about-feature .text {
   color: white;
   text-align: justify;
 }
 
-.wwi-right {
+.about-right {
   display: flex;
   align-items: center;
   justify-content: center;
   align-self: flex-end;
 }
 
-.wwi-right img {
+.about-right img {
   width: 100%;
 }
 
 @media (max-width: 990px) {
-  .wwi-container {
+  .about-container {
     flex-direction: column;
     padding: 2rem;
   }
 
-  .wwi-right {
+  .about-right {
     margin-top: 2rem;
     align-self: center;
   }
 
-  .wwi-right img {
+  .about-right img {
     max-width: 20rem;
   }
 }

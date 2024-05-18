@@ -26,26 +26,26 @@ const Navbar = () => {
         <div className="n-container">
           {/* left side */}
           <div className="n-logo">
-            <span>ZAINKEEPSCODE</span>
+            <span>COMPANY</span>
           </div>
 
           {/* right side */}
           <div className="n-right">
             <div className="n-menu">
               <Link to="wwd-wrapper" spy={true} smooth={true}>
-                <span>What we do</span>
+                <span>What We do</span>
               </Link>
               <Link to="hiw-wrapper" spy={true} smooth={true} offset={100}>
                 <span>How it works</span>
               </Link>
               <Link to="wwi-wrapper" spy={true} smooth={true}>
-                <span>Who we invest in</span>
+                <span>About us</span>
               </Link>
               <Link to="t-wrapper" spy={true} smooth={true} offset={100}>
                 <span>Testimonials</span>
               </Link>
             </div>
-            <div className="fund-button">Get funded</div>
+            <div className="fund-button">Contact Us</div>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
       {/* mobile version */}
       <div className="nm-container">
         {/* logo */}
-        <span>ZAINKEEPSCODE</span>
+        <span>COMPANY</span>
 
         {/* menu icon */}
         {!mobileMenuOpened ? (
@@ -89,7 +89,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
           >
-            <span>Who we invest in</span>
+            <span>About us</span>
           </Link>
           <Link
             onClick={() => setMobileMenuOpened(false)}
@@ -99,7 +99,7 @@ const Navbar = () => {
           >
             <span>Testimonials</span>
           </Link>
-          <div className="m-funded-button">Get Funded</div>
+          <div className="m-funded-button">Contact Us</div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .h-wrapper {
   background-color: var(--primary-color);
-  height: 120vh;
+  height: 100vh;
   overflow: hidden;
 }
 
